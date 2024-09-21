@@ -1,8 +1,11 @@
-<ion-content>
-  <app-header></app-header>
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <ion-img src="assets/img/RegistrApp-logo.png"/>
+    <ion-title>Identificate!</ion-title>
+  </div>
 
-  <p>Hola, esto es un Home</p>
-
-  <app-footer></app-footer>
-
+  <div class="botones">
+    <ion-button [routerLink]="['/login']" shape="round">Docente</ion-button>
+    <ion-button shape="round">Estudiante</ion-button>
+  </div>
 </ion-content>
