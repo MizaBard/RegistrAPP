@@ -1,3 +1,4 @@
+import { IonicModule } from '@ionic/angular';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { NgModule } from '@angular/core';
@@ -13,7 +14,8 @@ import { RouterLink } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterLink
+    RouterLink,
+    IonicModule
   ],
   exports: [
     HeaderComponent,

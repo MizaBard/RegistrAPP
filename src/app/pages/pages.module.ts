@@ -1,3 +1,5 @@
+import { AlumnoComponent } from './alumno/alumno.component';
+import { DocenteComponent } from './docente/docente.component';
 import { IonicModule } from '@ionic/angular';
 import { SharedModule } from './../shared/shared.module';
 
@@ -21,6 +23,8 @@ import { FormsModule } from '@angular/forms';
     LogoutComponent,
     NotFoundComponent,
     RecuperarPassComponent,
+    DocenteComponent,
+    AlumnoComponent,
   ],
   imports: [
     CommonModule,

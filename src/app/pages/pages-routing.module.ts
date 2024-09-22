@@ -1,3 +1,5 @@
+import { AlumnoComponent } from './alumno/alumno.component';
+import { DocenteComponent } from './docente/docente.component';
 import { RecuperarPassComponent } from './recuperar-pass/recuperar-pass.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { LogoutComponent } from './logout/logout.component';
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'logout', component: LogoutComponent},
   { path: 'not-found', component: NotFoundComponent},
   { path: 'recuperar-pass', component: RecuperarPassComponent},
+  { path: 'docente', component: DocenteComponent},
+  { path: 'alumno', component: AlumnoComponent},
 ];
 
 @NgModule({
