@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { FormsModule } from '@angular/forms';
+import { AsignaturaComponent } from './asignatura/asignatura.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { FormsModule } from '@angular/forms';
     RecuperarPassComponent,
     DocenteComponent,
     AlumnoComponent,
+    AsignaturaComponent,
   ],
   imports: [
     CommonModule,

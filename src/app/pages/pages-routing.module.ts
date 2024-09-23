@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AsignaturaComponent } from './asignatura/asignatura.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'recuperar-pass', component: RecuperarPassComponent},
   { path: 'docente', component: DocenteComponent},
   { path: 'alumno', component: AlumnoComponent},
+  { path: 'asignatura', component: AsignaturaComponent},
 ];
 
 @NgModule({
